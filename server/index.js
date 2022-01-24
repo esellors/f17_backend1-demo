@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors')
 
 app.use( cors() )
-// app.use( express.json() )
+app.use( express.json() )
 
 const mockDb = [
     'pencil', 'pen', 'stick', 'dirt', 'leaf', 'elephant', 'the one ring', 'desk', 'lightbulb', 'my axe'
